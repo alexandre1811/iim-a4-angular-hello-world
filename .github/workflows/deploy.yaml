@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: "Setup Angular"
-        uses: actions/angular-github-actions@master
-
       - name: "Install dependencies"
         run: npm install
 
