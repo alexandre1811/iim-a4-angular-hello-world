@@ -21,5 +21,8 @@ jobs:
       - name: "Install dependencies"
         run: npm install
 
+      - name: "Install ChromeDriver"
+        run: sudo apt-get install chromiom-browser
+
       - name: "Run test app"
         run: npm run test --no-watch --no-progress
