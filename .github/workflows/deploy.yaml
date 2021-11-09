@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: "Install ChromeDriver"
-        run: sudo apt-get install chromiom-browser
+        run: sudo apt-get install chromium-browser
 
       - name: "Run test app"
         run: npm run test --no-watch --no-progress
